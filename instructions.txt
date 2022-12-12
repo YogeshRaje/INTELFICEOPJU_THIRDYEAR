@@ -16,4 +16,18 @@ $mkdir opjuthird
 $cd opjuthird
 
 
+-How to list all compute nodes and their properties
+     $ pbsnodes
+
+-How to list the free compute nodes (lower-case ‘L’)
+    $     pbsnodes -l free
+
+ -Listing compute node properties
+    $ pbsnodes | sort | grep properties | grep
+
+  -Targeting specific compute nodes
+    $ pbsnodes | sort | grep properties | grep gpu 
+    
+    
+
 
