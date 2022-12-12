@@ -50,6 +50,7 @@ The command for submitting a job to a compute node hosting a GPU is:
 
 $qsub -l nodes=1:gpu:ppn=2 run.sh 
 $qsub -l nodes=1:gen9:ppn=2 run.sh
+qsub -l nodes=1:fpga_compile:ppn=2 -d . run.sh
 
 It will create two files- run.sh.e2081402  and run.sh.o2081402
  
