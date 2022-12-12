@@ -15,7 +15,8 @@ $mkdir opjuthird
 -change directory to opjuthird
 $cd opjuthird
 
-
+###################################################################
+Basic commands-
 -How to list all compute nodes and their properties
      $ pbsnodes
 
@@ -29,5 +30,27 @@ $cd opjuthird
     $ pbsnodes | sort | grep properties | grep gpu 
     
     
+####################################################################
 
+Task3-Run IDP Python file on CPU , GPU and FPGA
 
+step1)upload file demo_python1.py
+step2)create run.sh file 
+$nano run.sh 
+add following line of code 
+#!/bin/bash
+%%qsub
+cd $PBS_O_WORKDIR
+python demo_python1.py
+
+-save run.sh and return to terminal 
+
+Task4- How to target specific GPUs
+The command for submitting a job to a compute node hosting a GPU is: 
+
+$qsub -l nodes=1:gpu:ppn=2 run.sh 
+
+It will create two files- run.sh.e2081402  and run.sh.o2081402
+ 
+-To check output run command on terminal 
+>cat run.sh.o2081402
