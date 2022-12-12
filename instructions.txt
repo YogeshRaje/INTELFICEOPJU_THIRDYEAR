@@ -1,1 +1,4 @@
 OPJU AI-ML Workshop
+
+OneAPI ML case study
+https://medium.com/intel-analytics-software/optimize-utility-maintenance-prediction-for-better-service-b3a58403151a
