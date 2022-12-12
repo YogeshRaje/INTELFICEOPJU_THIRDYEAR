@@ -2,3 +2,18 @@ OPJU AI-ML Workshop
 
 OneAPI ML case study
 https://medium.com/intel-analytics-software/optimize-utility-maintenance-prediction-for-better-service-b3a58403151a
+
+***Task1-
+-LogIn into Intel OneAPI Devcloud account
+https://devcloud.intel.com/oneapi/
+
+-Launch Jupyter Lab
+
+***Task2- Open Terminal in Dev clould 
+-create direcotry opjuthird
+$mkdir opjuthird
+-change directory to opjuthird
+$cd opjuthird
+
+
+
