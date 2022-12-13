@@ -1,1 +1,32 @@
+Task1- Install Intel Distribution of Python on Laptop
+-Search for intel distribution for python 
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/distribution-for-python.html
 
+-click on Download the Stand-Alone Version
+https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html#python
+
+-select Intel Distribution for Python for Windows*  to download and install it 
+
+
+Task2- Demo - How to Activate and run sample program using Intel Distribution of Python on Laptop
+**After installation of oneAPI:Intel Distribution for Python follow the following steps
+  
+-open anaconda Prompt
+- cd  C:\Program Files (x86)\Intel\oneAPI\intelpython\python3.9\Scripts
+-> activate
+- Check the python version
+> python --version
+
+***It shows output as Python 3.9.10 :Intel Corporation . It means Intel OneAPI:Intel distribution is initialized on your local machine.
+ 
+
+Task3 - demo of program of linear regression in jupyter notebook
+-Create folder on desktop and change to that directory
+>cd F:\FICE\OPJU_ThirdYear\Day1\demo_Intel_OneAPI
+>F:
+-open jupyter notebook with Intel version on local machine 
+> jupyter notebook 
+-Jupyter notebook will open .
+
+-Create new file and execute command 
+!python --version
