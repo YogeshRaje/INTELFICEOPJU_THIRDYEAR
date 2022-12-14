@@ -60,3 +60,21 @@ It will create two files- run.sh.e2081402  and run.sh.o2081402
  
 -To check output run command on terminal 
 >cat run.sh.o2081402
+
+=================================================================================
+
+***To Patch (sklearnex )==>
+from sklearnex import patch_sklearn 
+patch_sklearn()
+
+
+***To Unpatch (sklearnex)==>
+from sklearnex import unpatch_sklearn
+unpatch_sklearn()
+
+
+***To executing code on Intel Sklearnex without changing code written in sklearn
+>python -m sklearnex Class_patch.py
+
+=====================================================================================================================
+
