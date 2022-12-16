@@ -20,6 +20,10 @@ Task- -How to target specific FPGA
 
 qsub -l nodes=1:fpga_runtime:arria10:ppn=2 -d . run.sh 
 
+qsub -l nodes=1:fpga_runtime:arria10:ppn=2 -d . run.sh 
+
+qsub -l nodes=1:fpga_runtime:stratix10:ppn=2 -d . run.sh
+
 Task - How to target specific xeon processor
 $ qsub -l nodes=1:xeon:ppn=2 run.sh
 
