@@ -28,3 +28,11 @@ Task - How to target specific xeon processor
 $ qsub -l nodes=1:xeon:ppn=2 run.sh
 
 
+Patch sklearnex -Intel Extension for Sklearn
+from sklearnex import patch_sklearn
+patch_sklearn()
+
+Unpatch sklearnex
+from sklearnex import unpatch_sklearn
+unpatch_sklearn()
+
