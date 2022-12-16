@@ -1,5 +1,6 @@
 # INTELFICEOPJU_THIRDYEAR
 
-oneAPI
+Model deployment 
+https://yogeshraje-irisflowerprediction-app-sar065.streamlit.app/
 
-git clone https://github.com/IntelSoftware/Machine-Learning-using-oneAPI.git
+
